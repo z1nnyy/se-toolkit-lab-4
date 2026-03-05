@@ -1,7 +1,6 @@
 from app.routers.interactions import filter_by_max_item_id
 from .test_interactions import _make_log
 
-
 # KEPT: covers edge case when there are no interactions
 def test_filter_returns_empty_list_when_no_interactions() -> None:
     interactions = []
